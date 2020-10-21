@@ -1,0 +1,4 @@
+model_checkpoint_path: "Alex_5x5.ckpt-3001"
+all_model_checkpoint_paths: "Alex_5x5.ckpt-1"
+all_model_checkpoint_paths: "Alex_5x5.ckpt-3001"
+all_model_checkpoint_paths: "Alex_5x5.ckpt-6001"
