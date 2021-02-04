@@ -1,5 +1,5 @@
 # DeepGF
-Code is available now! Note that there are lots of interesting visualization result in the fold of "visualization_result".
+Code is available now! Note that there are lots of interesting visualization result in the fold of "visualization_result". Contact [xfwang@buaa.edu.cn] if you have any questiions.
 
 Database in the paper "DeepGF: Glaucoma Forecast Using the Sequential Fundus Images"<br/>
 Note that you can access the below link and require for downloading the datatbase described in the paper.<br/>
