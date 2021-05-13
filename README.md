@@ -1,4 +1,8 @@
-# DeepGF
+# DeepGF: Glaucoma Forecast Using the Sequential Fundus Images
+- This is the official repository of the paper "DeepGF: Glaucoma Forecast Using the Sequential Fundus Images" from **MICCAI 2020**[[Paper Link]](https://link.springer.com/chapter/10.1007/978-3-030-59722-1_60, "Paper Link")[[PDF Link]](https://link.springer.com/content/pdf/10.1007%2F978-3-030-59722-1_60.pdf)
+
+![framework](./imgs/framework.png)
+
 Code is available now! Note that there are lots of interesting visualization result in the fold of "visualization_result". Contact [xfwang@buaa.edu.cn] if you have any questiions.
 Note that our code can be only used for academic purpose.
 Database in the paper "DeepGF: Glaucoma Forecast Using the Sequential Fundus Images"<br/>
