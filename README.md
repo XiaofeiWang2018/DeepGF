@@ -12,23 +12,84 @@
 
 
 ## 2. Dataset
-The training data and testing data is from the [[SIGF-database]](https://www.dropbox.com/s/a0p05573xx37lfx/SIGF-database.rar?dl=0, "Official SIGF"). Note that you should contat [liliu1995@buaa.edu.cn] for password of the shared data in dropbox. Below is an example of our SIGF database. 
+1. The training data and testing data is from the [[SIGF-database]](https://www.dropbox.com/s/a0p05573xx37lfx/SIGF-database.rar?dl=0, "Official SIGF"). Note that you should contact [liu.li20@imperial.ac.uk] or [xfwang@buaa.edu.cn] for password of the shared data in dropbox. Below is an example of our SIGF database. 
 
 ![Database](./imgs/database.jpg)
 
+2. Put the training and test images and the labels in the directory:
+```
+'./data/train(test)/image(label)/all/'
+```
+
+3. Obtain the polar and attention data from the  [[Polar-Attention]](https://www.dropbox.com/s/q23i1le5vhs9ilv/Polar-Attention.zip?dl=0, "Attention and Polar"). Below is an example of the polar and attention map of a glaucoma fundus image.
+
+![Polar-Attention](imgs/fundusimage.jpg)
 
 
-Code is available now! Note that there are lots of interesting visualization result in the fold of "visualization_result". Contact [xfwang@buaa.edu.cn] if you have any questiions.
-Note that our code can be only used for academic purpose.
-Database in the paper "DeepGF: Glaucoma Forecast Using the Sequential Fundus Images"<br/>
+4. Put the attention and polar images in the directory:
+```
+'./data/'
+```
+
+## 3. Training
+
+```
+    python train.py 
+```
+
+## 4. Test
+
+```
+    python test.py 
+```
+
+## 5. Compared Methods
+
+The network re-implenmentation of [[Chen et al.]](https://ieeexplore.ieee.org/abstract/document/7318462/, "Chen") is in the file of:
+
+```
+    chen_net.py
+```
+and from the directory of 
+
+
+```
+    ./Compared Methods
+```
+
+## 6. Ablation Study
+
+If you are interested in our ablation study, please see
+
+```
+    ./Ablation study
+```
+
+## 7. Network Interpretability
+
+1. If you are interested in the visualization method and results used for showing the interpretability 
+of our method, please refer to the directory of
+
+```
+    ./saliency
+```
+
+2. Or you can just see the images in the directory of 
+
+
+```
+    ./visualization_result
+```
+
+for more visualization results.
 
 ## 5. Citation
 If you find our work useful in your research or publication, please cite our work:
 ```
-@article{deng2021deep,
-  title={Joint learning of 3D lesion segmentation and classification for explainable COVID-19 diagnosis.},
-  author={Wang, Xiaofei and Jiang, Lai and Li, Liu and Xu, Mai and Deng, Xin and Da, Lisong and Xu, Xiangyang and Li, Tianyi, and Guo, Yichen and  Dragotti, Pier},
-  journal={IEEE Transactions on Medical Imaging},
-  year={2021}
+@article{Li2020deep,
+  title={DeepGF: Glaucoma Forecast Using the Sequential Fundus Images.},
+  author={Li, Liu and Wang, Xiaofei and  Xu, Mai and Liu, Hanruo},
+  journal={MICCAI},
+  year={2020}
 }
 ```
