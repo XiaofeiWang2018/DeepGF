@@ -83,7 +83,7 @@ of our method, please refer to the directory of
 
 for more visualization results.
 
-## 5. Citation
+## 8. Citation
 If you find our work useful in your research or publication, please cite our work:
 ```
 @article{Li2020deep,
