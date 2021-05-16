@@ -32,56 +32,47 @@
 ```
 
 ## 3. Training
+The details of the hyper-parameters are all listed in the `train.py`. Use the below command to train our model on the SIGF database.
 
 ```
-    python train.py 
+    python ./train.py 
 ```
 
 ## 4. Test
-
+Download the pre-trained model in [[Dropbox]](https://www.dropbox.com/s/e1oebawbp5wlpvm/pretrained_model.zip?dl=0). Then put the file in tghe directory of 
+`pretrained_model`. Use the below command to test the model on the SIGF database.
 ```
-    python test.py 
+    python ./test.py 
 ```
 
 ## 5. Compared Methods
 
 The network re-implenmentation of [[Chen et al.]](https://ieeexplore.ieee.org/abstract/document/7318462/, "Chen") is in the file of:
-
-```
-    chen_net.py
-```
-and from the directory of 
+`chen_net.py`
+and from the directory of `./Compared Methods`
 
 
-```
-    ./Compared Methods
-```
+
 
 ## 6. Ablation Study
 
-If you are interested in our ablation study, please see
+If you are interested in our ablation study, please see `./Ablation study`
 
-```
-    ./Ablation study
-```
+
+
 
 ## 7. Network Interpretability
 
 1. If you are interested in the visualization method and results used for showing the interpretability 
-of our method, please refer to the directory of
-
-```
-    ./saliency
-```
-
-2. Or you can just see the images in the directory of 
+of our method, please refer to the directory of `./saliency`
 
 
-```
-    ./visualization_result
-```
 
-for more visualization results.
+2. Or you can just see the images in the directory of `./visualization_result`
+for more visualization results. Some examples of the visualization rsults are shown here.
+
+![Database](./imgs/figure1.jpg)
+
 
 ## 8. Citation
 If you find our work useful in your research or publication, please cite our work:
