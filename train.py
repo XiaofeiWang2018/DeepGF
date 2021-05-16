@@ -10,7 +10,7 @@ from data_processing import DataLoader_atten_polar
 from sklearn.metrics import roc_auc_score
 import platform
 
-mode='Performance drops v.s less parameters -- no lstm'
+mode='Ours'
 test_num = 348
 cnn_pretrained_path='./CVPR_256_polar_64/'
 lr_change= [1*1e-7, 4*1e-7, 4*1e-6, 4*1e-6, 4*1e-5, 2*1e-4]
