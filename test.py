@@ -8,7 +8,7 @@ import os
 from matplotlib import pyplot as plt
 from data_processing import DataLoader_atten_polar
 
-mode='CVPR(polar)+LSTM(timegate)+Oldstrategy(change_adam)'
+mode='Ours'
 test_num = 348
 init_a=100
 init_b=0
@@ -72,7 +72,7 @@ def main():
         """test"""
         dataloader_test = DataLoader_atten_polar(batch_size=batch_size,list_img_path=list_img_path_test, state='test')
         saver = tf.train.Saver()
-        model_file = tf.train.latest_checkpoint('./model55_finetune_1/')
+        model_file = tf.train.latest_checkpoint('./pretrained_model/')
         saver.restore(sess, model_file)
         count = 0
 
