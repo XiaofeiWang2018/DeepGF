@@ -12,7 +12,7 @@
 
 
 ## 2. Dataset
-1. The training data and testing data is from the [[SIGF-database]](https://www.dropbox.com/s/a0p05573xx37lfx/SIGF-database.rar?dl=0, "Official SIGF"). Note that you should contact [liu.li20@imperial.ac.uk] or [xfwang@buaa.edu.cn] for password of the shared data in dropbox. Below is an example of our SIGF database. 
+1. The training data and testing data is from the [[SIGF-database]](https://www.dropbox.com/s/a0p05573xx37lfx/SIGF-database.rar?dl=0, "Official SIGF"). Contact [liu.li20@imperial.ac.uk] or [xfwang@buaa.edu.cn] for password of the shared data in dropbox. Below is an example of our SIGF database. 
 
 ![Database](./imgs/database.jpg)
 
@@ -21,7 +21,7 @@
 './data/train(test)/image(label)/all/'
 ```
 
-3. Obtain the polar and attention data from the  [[Polar-Attention]](https://www.dropbox.com/s/q23i1le5vhs9ilv/Polar-Attention.zip?dl=0, "Attention and Polar"). Below is an example of the polar and attention map of a glaucoma fundus image.
+3. Obtain the polar and attention data from the  [[Dropbox]](https://www.dropbox.com/s/q23i1le5vhs9ilv/Polar-Attention.zip?dl=0, "Attention and Polar"). Below is an example of the polar and attention map of a glaucoma fundus image.
 
 ![Polar-Attention](imgs/fundusimage.jpg)
 
