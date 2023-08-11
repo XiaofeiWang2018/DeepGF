@@ -12,6 +12,11 @@
 
 
 ## 2. Dataset
+
+*** Update ***
+SIGF-database is currently undergoing ethics review and not available now. 
+** Update ***
+
 1. The training data and testing data is from the [[SIGF-database]](https://www.dropbox.com/s/a0p05573xx37lfx/SIGF-database.rar?dl=0, "Official SIGF"). Contact [liu.li20@imperial.ac.uk] or [xfwang@buaa.edu.cn] for password of the shared data in dropbox. Below is an example of our SIGF database. 
 
 ![Database](./imgs/database.jpg)
