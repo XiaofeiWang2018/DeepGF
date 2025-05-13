@@ -15,6 +15,10 @@
 
 *** Update ***
 
+**Of note, after undergoing a period of open access followed by a more stringent ethics review, the SIGF database is now available again upon request.**
+
+*** Update ***
+
 **SIGF-database is currently undergoing ethics review and not available now.**
 
 ** Update ***
