@@ -15,7 +15,7 @@
 
 *** Update ***
 
-**Of note, after undergoing a period of open access followed by a more stringent ethics review, the SIGF database is now available again upon request.**
+**Of note, after undergoing a period of open access followed by a more stringent ethics review, the SIGF database is now available again upon request (to xw405@cam.ac.uk).**
 
 *** Update ***
 
